@@ -25,7 +25,7 @@ links.forEach(function(ev){
         content.classList.add('animate__animated');
         
         setTimeout(function(){
-            location.href = '../index.html';
+            location.href = '../';
         },600)
 
         
