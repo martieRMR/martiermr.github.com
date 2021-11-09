@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #F7EDF0;
+    font-family:'Inter',sans-serif;
+
+}
+
+
+header{
+    display: flex;
+    background-color: #FF4F79;
+    height: 10vh;
+    justify-content: space-around;
+
+}
+
+h1{
+    align-self: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+div{
+    align-self: center;
+}
+
+.logo_header{
+    width: 45px;
+}
+
+.content{
+    background-color: #F7EDF0;
+
+}
+
+h2{
+    margin: 31px auto;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight:450;
+}
+
+.trabajos_1, .trabajos_2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+
+
+.trabajos_1  img, .trabajos_2 img{
+    opacity: 83%;
+    width:120px;
+    height: 112px;
+    margin: 28px 19px;
+    border-radius: 8px;
+}
+
+#container_contact{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.contact{
+    text-align: center;
+    width: 284px;
+    height: 100px;
+    padding: 5px;
+    background-color: #F4E04D;
+}
+
+.contact{
+    color: #363636;
+    font-weight: 400;
+}
+
+.messenger_logo{
+    width: 40px;
+    height: 40px;
+}
